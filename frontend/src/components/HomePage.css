@@ -74,6 +74,12 @@
     text-align: center;
   }
 
+  .response_link {
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
   .nav-link-tools{
     display: flex;
     justify-content: flex-start;
