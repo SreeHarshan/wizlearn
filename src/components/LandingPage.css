@@ -1,0 +1,60 @@
+/* LandingPage.css */
+
+/* Header styles */
+.landing-page3 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background: url('../assets/images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+  }
+  
+  .main-title3 {
+    margin-top: 10cm;
+    font-size: 5rem;
+    margin-bottom: 5px;
+    text-align: right;
+    margin-right: 2.8ch;
+    color: #000000;
+  }
+  
+  .main-para3 {
+    font-size: 2rem;
+    margin-bottom: 1px;
+    text-align: right;
+    margin-right: 12ch;
+    color: #f7ecec;
+  }
+  
+  /* Button styles */
+  .buttons {
+    text-align: right;
+    margin-right: 17ch;
+    margin-bottom: 17cm;
+  }
+  
+  .primary-button {
+    background-color: #007bff;
+    color: #ffffff; /* Text color for the button */
+    padding: 15px 30px; /* Adjusted button size */
+    font-size: 1.4rem; /* Adjusted font size */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .primary-button3:hover {
+    background-color: #0056b3;
+  }
+  
+  #reg_btn3 {
+    margin-top: 10px;
+  }
+  

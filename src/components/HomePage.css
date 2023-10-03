@@ -1,0 +1,101 @@
+#hometitle{
+    text-align: left;
+    color: black;
+}
+.home-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0; /* Background color for the entire page */
+  }
+  /* Header styles */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff; /* Background color for the navigation bar */
+    padding: 15px 10px;
+    color: #fff; /* Text color for navigation bar items */
+  }
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-link-log {
+    text-decoration: none;
+    color: #070000;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    text-align: end;
+    margin-left: 10cm;
+  }
+
+/* Search bar styles */
+.search-container {
+    text-align: center;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 10px;
+    margin-top: 02cm;
+    margin-right: 2cm;
+    margin-bottom: 20px;
+    border: 2px solid #007bff; /* Border color for the input field */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Search button styles */
+  .search-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3; /* Hover color for the button */
+  }
+  
+  /* Response message styles */
+  .response {
+    font-size: 18px;
+    color: #333; /* Text color for the response message */
+    text-align: center;
+  }
+
+  .nav-link-tools{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #e4e0e0; /* Background color for the navigation bar */
+    padding: 15px 10px;
+    color: #ede5e5; 
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  /* Add space to the right of the "Home" link */
+.nav-link-tools a:first-child {
+    margin-right: 1cm;
+  }
+  
+  /* Additional styles for the links */
+  .nav-link-tools a {
+    text-decoration: none;
+    color: #000; /* Adjust the color as needed */
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
