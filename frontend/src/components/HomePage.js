@@ -17,7 +17,7 @@ export default function HomePage() {
       setResponse('Please enter a query.');
     } else {
       // Call the api
-      var link = "http://192.168.0.110:5000/query?text="+query;
+      var link = "http://localhost:5000/query?text="+query;
       const response = await fetch(link, {
         method: 'GET',
         headers: {
@@ -67,7 +67,7 @@ export default function HomePage() {
                     return (
                         <>
                         <p class="response">{it.link_name}</p>
-                        <a href='it.link' class = "response_link">{it.link}</a></>
+                        <a href={it.link} class = "response_link">{it.link}</a></>
                     );
                 })}
     </div>

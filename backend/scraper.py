@@ -25,9 +25,8 @@ def scrape(text):
         site["link_title"] = allData[i].find("h3").text
         site["desc"] = allData[i].find("div",{"class":"VwiC3b yXK7lf lyLwlc yDYNvb W8l4ac lEBKkf"}).text
 
-        print(site)
         Data.append(site)
-
+    print(Data)
     return Data
 
 
